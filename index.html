@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sua Empresa de Tecnologia</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav class="container">
+            <a href="#" class="logo">TechCorp</a>
+            <ul class="nav-links">
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#about">Sobre Nós</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+            <!-- Ícone do Menu Hambúrguer Adicionado -->
+            <div class="hamburger-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Seção Hero -->
+        <section class="hero">
+            <div class="container">
+                <h1>Inovação e Tecnologia para Transformar seu Negócio</h1>
+                <p>Criamos soluções digitais personalizadas que impulsionam o crescimento e a eficiência da sua empresa.</p>
+                <a href="#contact" class="cta-button">Fale com um Especialista</a>
+            </div>
+        </section>
+
+        <!-- Seção de Serviços -->
+        <section id="services" class="services">
+            <div class="container">
+                <h2>Nossos Serviços</h2>
+                <div class="service-cards">
+                    <div class="card">
+                        <h3>Desenvolvimento Web</h3>
+                        <p>Construímos sites e aplicações web robustas, escaláveis e com foco na experiência do usuário.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Soluções em Nuvem</h3>
+                        <p>Otimizamos sua infraestrutura com as melhores práticas de cloud computing para mais segurança e flexibilidade.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Consultoria de TI</h3>
+                        <p>Nossa equipe de especialistas ajuda você a planejar e executar sua estratégia de tecnologia.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Sobre Nós -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2>Sobre a TechCorp</h2>
+                <p>Somos apaixonados por tecnologia e dedicados a resolver os desafios mais complexos dos nossos clientes. Com anos de experiência no mercado, nossa missão é entregar excelência e inovação em cada projeto, construindo parcerias de longo prazo baseadas em confiança e resultados.</p>
+            </div>
+        </section>
+
+        <!-- Seção de Contato -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Entre em Contato</h2>
+                <p>Pronto para começar seu próximo projeto? Preencha o formulário abaixo.</p>
+                <form id="contact-form">
+                    <input type="text" id="name" name="name" placeholder="Seu Nome" required>
+                    <input type="email" id="email" name="email" placeholder="Seu E-mail" required>
+                    <textarea name="message" id="message" rows="5" placeholder="Sua Mensagem" required></textarea>
+                    <button type="submit" class="cta-button">Enviar Mensagem</button>
+                </form>
+                <p id="form-status"></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 TechCorp. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
