@@ -1,8 +1,8 @@
 /* Reset Básico e Fontes */
 :root {
-    --primary-color: #f8f9fa;   /* Fundo principal - Cinza claro */
-    --secondary-color: #ffffff; /* Fundo secundário (cards) - Branco */
-    --accent-color: #0056b3;    /* Cor de destaque - Azul profissional */
+    --primary-color: #ffffff;   /* Fundo principal - Branco */
+    --secondary-color: #f8f9fa; /* Fundo secundário (cards) - Cinza claro */
+    --accent-color: #20c997;    /* Cor de destaque - Verde moderno */
     --text-color: #212529;      /* Cor do texto principal - Quase preto */
     --light-text-color: #6c757d;/* Cor do texto secundário - Cinza médio */
 }
@@ -58,7 +58,7 @@ a {
 
 /* Cabeçalho e Navegação */
 header {
-    background-color: rgba(248, 249, 250, 0.85); /* Usa a cor primária com transparência */
+    background-color: rgba(255, 255, 255, 0.85); /* Usa a cor primária com transparência */
     backdrop-filter: blur(10px);
     padding: 1rem 0;
     position: fixed;
@@ -243,7 +243,7 @@ footer {
         top: 0;
         height: 100vh;
         width: 70%;
-        background-color: var(--primary-color);
+        background-color: var(--secondary-color);
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
